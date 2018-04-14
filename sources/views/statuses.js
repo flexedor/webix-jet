@@ -1,7 +1,7 @@
 import {JetView} from "webix-jet";
 import {statuses} from "models/statuses";
 
-export default class status extends JetView{
+export default class status_1 extends JetView{
     config(){
         return {
             rows: [

@@ -1,7 +1,7 @@
 import {JetView} from "webix-jet";
 import {countries} from "models/countries";
 
-export default class countries extends JetView{
+export default class countries_1 extends JetView{
     config(){
         return {
             rows: [

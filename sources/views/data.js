@@ -1,6 +1,6 @@
 import {JetView} from "webix-jet";
-import status from "views/statuses";
-import countries from "views/countries";
+import status_1 from "views/statuses";
+import countries_1 from "views/countries";
 
 export default class DataView extends JetView{
 	config(){
@@ -26,18 +26,12 @@ export default class DataView extends JetView{
 			]
 		};
 
-		var dataCountries = {
-            countries
-		};
 
-		var dataStatuses ={
-            countries
-		};
 
 		var multiviewData = {
 			cells: [
-				{id:"Countries", cols:[ dataCountries]},
-				{id:"Statuses", cols: [dataStatuses]}
+				{id:"Countries", cols:[ countries_1]},
+				{id:"Statuses", cols: [   status_1]}
 			  ]
 		}
 
